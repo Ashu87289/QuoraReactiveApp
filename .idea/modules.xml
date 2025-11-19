@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AlgoCamp Projects.iml" filepath="$PROJECT_DIR$/.idea/AlgoCamp Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSLearning/DSLearning.iml" filepath="$PROJECT_DIR$/DSLearning/DSLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ecommerce.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID_Principle/SOLID_Principle.iml" filepath="$PROJECT_DIR$/SOLID_Principle/SOLID_Principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.main.iml" />
+    </modules>
+  </component>
+</project>
