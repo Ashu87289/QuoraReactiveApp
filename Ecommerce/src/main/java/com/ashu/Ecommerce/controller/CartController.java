@@ -3,6 +3,7 @@ package com.ashu.Ecommerce.controller;
 import com.ashu.Ecommerce.dto.CartDTO;
 import com.ashu.Ecommerce.services.ICartService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -66,8 +67,9 @@ public class CartController {
 
 
     @GetMapping
-    public List<CartDTO> getAllCategories() throws IOException {
-        return this.iCartService.getAllCarts();
+    public ResponseEntity<List<CartDTO>> getAllCategories() throws IOException {
+        List<CartDTO> result =  this.iCartService.getAllCarts();
+        return ResponseEntity.ok(result);
     }
 
     @GetMapping("/{id}")
