@@ -1,6 +1,7 @@
 package com.ashu.Ecommerce.configuration;
 
 import com.ashu.Ecommerce.gateway.api.FakeStoreCartAPI;
+import com.ashu.Ecommerce.gateway.api.FakeStoreProductAPI;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,5 +25,10 @@ public class RetrofitConfig {
     @Bean
     public FakeStoreCartAPI fakeStoreCartAPI(Retrofit retrofit){
         return retrofit.create(FakeStoreCartAPI.class);
+    }
+
+    @Bean
+    public FakeStoreProductAPI fakeStoreProductAPI(Retrofit retrofit){
+        return retrofit.create(FakeStoreProductAPI.class);
     }
 }
