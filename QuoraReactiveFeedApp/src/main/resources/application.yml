@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: QuoraReactiveFeedApp
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/quora_db
+      auto-index-creation: true
+
+  elasticsearch:
+    uris: http://localhost:9200

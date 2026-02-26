@@ -6,8 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/DSLearning/DSLearning.iml" filepath="$PROJECT_DIR$/DSLearning/DSLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ecommerce.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EcommerceSpring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EcommerceSpring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrderService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OrderService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuoraReactiveApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/QuoraReactiveApp.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID_Principle/SOLID_Principle.iml" filepath="$PROJECT_DIR$/SOLID_Principle/SOLID_Principle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.main.iml" />
     </modules>
   </component>
 </project>

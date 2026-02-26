@@ -12,6 +12,14 @@
         <module name="EcommerceSpring.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="21" />
+      <module name="demo.main" target="21" />
+      <module name="demo.test" target="21" />
+      <module name="UnitTestApplication" target="21" />
+      <module name="UnitTestApplication.main" target="21" />
+      <module name="UnitTestApplication.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -21,6 +29,24 @@
       <module name="EcommerceSpring" options="-parameters" />
       <module name="EcommerceSpring.main" options="-parameters" />
       <module name="EcommerceSpring.test" options="-parameters" />
+      <module name="EcommerceUpdated" options="-parameters" />
+      <module name="EcommerceUpdated.main" options="-parameters" />
+      <module name="EcommerceUpdated.test" options="-parameters" />
+      <module name="EurekaApplication" options="-parameters" />
+      <module name="EurekaApplication.main" options="-parameters" />
+      <module name="EurekaApplication.test" options="-parameters" />
+      <module name="OrderService" options="-parameters" />
+      <module name="OrderService.main" options="-parameters" />
+      <module name="OrderService.test" options="-parameters" />
+      <module name="QuoraReactiveApp" options="-parameters" />
+      <module name="QuoraReactiveApp.main" options="-parameters" />
+      <module name="QuoraReactiveApp.test" options="-parameters" />
+      <module name="UnitTestApp" options="-parameters" />
+      <module name="UnitTestApp.main" options="-parameters" />
+      <module name="UnitTestApp.test" options="-parameters" />
+      <module name="UnitTestApplication" options="-parameters" />
+      <module name="UnitTestApplication.main" options="-parameters" />
+      <module name="UnitTestApplication.test" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />

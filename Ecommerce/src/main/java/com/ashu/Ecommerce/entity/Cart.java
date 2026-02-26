@@ -1,6 +1,5 @@
 package com.ashu.Ecommerce.entity;
 
-import com.ashu.Ecommerce.dto.CartProductDTO;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
